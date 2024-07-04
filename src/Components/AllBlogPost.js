@@ -50,9 +50,9 @@ export const AllBlogPost = () => {
           src="m-post-card-gridBlog9.jpg"
         />
       </div>
-      <div className=" flex w-[123px] h-[48px]rounded-md border-black justify-center  items-center ">
-        <h1 className="  border- text-center ">Load More</h1>
-      </div>
+      <button className=" w-[100px] py-2 bg-[#4B6BFB] text-white rounded-md m-auto flex text-center mt-2">
+        <p className="ml-2">Load More</p>
+      </button>
     </div>
   );
 };

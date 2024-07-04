@@ -5,6 +5,7 @@ import { AllBlogPost } from "@/Components/AllBlogPost";
 import { About } from "@/Components/About";
 import { MetaBlog } from "@/Assets/MetaBlog";
 import { MetalBlog } from "@/Components/MetalBlog";
+import { Carausel } from "@/Components/Carausel";
 export default function Home() {
   return (
     <div>
@@ -14,6 +15,7 @@ export default function Home() {
       <AllBlogPost />
       <About />
       <MetalBlog />
+      <Carausel />
     </div>
   );
 }

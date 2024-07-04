@@ -6,7 +6,7 @@ export const Navbar = () => {
     <div className="NavbarBody w-full h-[72px] ">
       <div className="flex  ">
         <div className="w-full flex  justify-between">
-          <MetaBlog />
+          <MetaBlog width={"135px"} height={"26px"} />
           <Menu />
         </div>
       </div>

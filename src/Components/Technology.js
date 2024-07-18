@@ -14,8 +14,8 @@ export const Technology = () => {
         <img className="absolute    bottom-1  left-0" src="ContentGrid.jpg" />
       </div>
       <div className="flex w-full   justify-center">
-        <CiSquareChevLeft className="w-[40px] h-[40px]" />
-        <CiSquareChevRight className="w-[40px] h-[40px] " />
+        <CiSquareChevLeft className="w-[40px] h-[40px] hover:bg-blue-300 rounded-xl" />
+        <CiSquareChevRight className="w-[40px] h-[40px] hover:bg-blue-300 rounded-xl" />
       </div>
     </div>
   );

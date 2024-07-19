@@ -1,11 +1,11 @@
 import Link from "next/link";
 export const AllBlogPost = () => {
   return (
-    <div>
+    <div className="lg.w-[1216px] w-full">
       <div>
         <h1 className="text-2xl italic ml-3">All Blog Post</h1>
       </div>
-      <div className="flex gap-5 flex-wrap ml-3 text-[#495057]">
+      <div className="flex gap-5 flex-wrap ml-3 text-[#495057] mt-5">
         <p className="text-[#D4A373]">All</p>
         <Link href="https://www.design.com/">
           <p className="hover:bg-blue-300 rounded-xl">Design</p>

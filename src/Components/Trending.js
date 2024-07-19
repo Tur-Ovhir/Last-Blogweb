@@ -1,6 +1,6 @@
 export const Trending = () => {
   return (
-    <div className="w-full h-[390px] flex flex-col">
+    <div className="lg.w-[1216px] w-full h-[390px] flex flex-col mt-10">
       <div className="">
         <h1 className="flex text-2xl italic ml-3">Trending</h1>
       </div>

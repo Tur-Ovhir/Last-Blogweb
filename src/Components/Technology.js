@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { CiSquareChevRight } from "react-icons/ci";
 import { CiSquareChevLeft } from "react-icons/ci";
 export const Technology = () => {
@@ -8,10 +9,12 @@ export const Technology = () => {
   ];
 
   return (
-    <div>
+    <div className=" lg.w-[1216px] w-full  lg.h-[600px] h-full">
       <div className="w-full flex relative ">
         <img className=" flex " src="/Image.png" />
-        <img className="absolute    bottom-1  left-0" src="ContentGrid.jpg" />
+        <Link href="">
+          <img className="absolute    bottom-1  left-0" src="ContentGrid.jpg" />
+        </Link>
       </div>
       <div className="flex w-full   justify-center">
         <CiSquareChevLeft className="w-[40px] h-[40px] hover:bg-blue-300 rounded-xl" />

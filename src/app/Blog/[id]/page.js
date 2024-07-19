@@ -1,14 +1,15 @@
 import { MdOutlineFace6 } from "react-icons/md";
 import { Navbar } from "@/Components/Navbar";
 import { About } from "@/Components/About";
+import { MetalBlog } from "@/Components/MetalBlog";
 export default function Workplace() {
   return (
     <div>
       <div>
         <Navbar></Navbar>
       </div>
-      <div className="w-full flex flex-col items-center">
-        <div className="w-[800px]  ">
+      <div className="lg.w-[800px] w-full flex flex-col items-center">
+        <div className="w-[800px]   ">
           <div className="text-2xl mt-10">
             <h1 className="w-full left-0">
               The Impact of Technology on the Workplace:
@@ -80,7 +81,12 @@ export default function Workplace() {
             adipiscing at in tellus.
           </p>
         </div>
-        <About></About>
+        <div>
+          <About></About>
+        </div>
+        <div>
+          <MetalBlog></MetalBlog>
+        </div>
       </div>
     </div>
   );

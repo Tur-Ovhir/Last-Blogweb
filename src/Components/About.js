@@ -5,7 +5,7 @@ import { IoLogoLinkedin } from "react-icons/io";
 import Link from "next/link";
 export const About = () => {
   return (
-    <div className="w-full h-[360px]   bg-[#F6F6F7]">
+    <div className=" lg.w-[1216px] w-full h-[360px]   bg-[#F6F6F7]">
       <div className="w-[358px] h-[316px]  border-black mt-12 ml-3 flex gap-5 flex-col">
         <h1 className="text-2xl">About</h1>
         <p className="w-[280px] h-[120px] text-[#696A75]">

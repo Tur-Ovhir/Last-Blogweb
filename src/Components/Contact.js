@@ -71,6 +71,9 @@ export const Contact = () => {
         </div>
       </div>
       <About></About>
+      <div className="mt-2">
+        <MetalBlog></MetalBlog>
+      </div>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
+import Image from "next/image";
 const categories = [
   "All",
   "React",
@@ -95,7 +95,11 @@ export const Carausel = () => {
 const BlogCard = ({ image, title, date, tags }) => {
   return (
     <div className="border p-4 flex flex-col gap-4 w-full rounded-md bg-white">
-      <img src={image} alt="image" className="aspect-[2/1] w-full rounded-md" />
+      <Image
+        src={image}
+        alt="image"
+        className="aspect-[2/1] w-full rounded-md"
+      />
 
       <div className="py-2 flex flex-col gap-4">
         <div className="flex gap-2 flex-wrap">

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { CiSquareChevRight } from "react-icons/ci";
 import { CiSquareChevLeft } from "react-icons/ci";
@@ -11,9 +12,13 @@ export const Technology = () => {
   return (
     <div className=" lg.w-[1216px] w-full  lg.h-[600px] h-full">
       <div className="w-full flex relative ">
-        <img className=" flex " src="/Image.png" />
+        <Image className=" flex " src="/Image.png" alt="" />
         <Link href="">
-          <img className="absolute    bottom-1  left-0" src="ContentGrid.jpg" />
+          <Image
+            className="absolute    bottom-1  left-0"
+            src="ContentGrid.jpg"
+            alt=""
+          />
         </Link>
       </div>
       <div className="flex w-full   justify-center">

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { MdOutlineFace6 } from "react-icons/md";
 import { Navbar } from "@/Components/Navbar";
 import { About } from "@/Components/About";
@@ -23,7 +24,7 @@ export default function Workplace() {
           </div>
         </div>
         <div className="mt-10 w-[800px] h-[462px] ">
-          <img className="justify-center" src="/imagehot.jpg"></img>
+          <Image className="justify-center" src="/imagehot.jpg" alt="" />
         </div>
         <div className="w-[800px] mt-10">
           <p className="text-[#3b3c4a]">

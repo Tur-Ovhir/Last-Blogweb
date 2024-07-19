@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 export const AllBlogPost = () => {
   return (
@@ -28,55 +29,55 @@ export const AllBlogPost = () => {
           className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6  "
           href="/Blog/2"
         >
-          <img src="m-post-card-gridBlog1.jpg" />
+          <Image src="m-post-card-gridBlog1.jpg" alt="" />
         </Link>
         <Link
           className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6  "
           href="/Blog/3"
         >
-          <img src="m-post-card-gridBlog2.jpg" />
+          <Image src="m-post-card-gridBlog2.jpg" alt="" />
         </Link>
         <Link
           className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6  "
           href="/Blog/4"
         >
-          <img src="m-post-card-gridBlog3.jpg" />
+          <Image src="m-post-card-gridBlog3.jpg" alt="" />
         </Link>
         <Link
           className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6  "
           href="/Blog/5"
         >
-          <img src="m-post-card-gridBlog4.jpg" />
+          <Image src="m-post-card-gridBlog4.jpg" alt="" />
         </Link>
         <Link
           className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6  "
           href="/Blog/6"
         >
-          <img src="m-post-card-gridBlog5.jpg" />
+          <Image src="m-post-card-gridBlog5.jpg" alt="" />
         </Link>
         <Link
           className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6  "
           href="/Blog/7"
         >
-          <img src="m-post-card-gridBlog6.jpg" />
+          <Image src="m-post-card-gridBlog6.jpg" alt="" />
         </Link>
         <Link
           className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6  "
           href="/Blog/8"
         >
-          <img src="m-post-card-gridBlog7.jpg" />
+          <Image src="m-post-card-gridBlog7.jpg" alt="" />
         </Link>
         <Link
           className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6  "
           href="/Blog/9"
         >
-          <img src="m-post-card-gridBlog8.jpg" />
+          <Image src="m-post-card-gridBlog8.jpg" alt="" />
         </Link>
         <Link
           className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6  "
           href="/Blog/10"
         >
-          <img src="m-post-card-gridBlog9.jpg" />
+          <Image src="m-post-card-gridBlog9.jpg" alt="" />
         </Link>
       </div>
       <button className=" w-[100px] py-2 bg-[#4B6BFB] text-white rounded-md m-auto flex text-center mt-2">

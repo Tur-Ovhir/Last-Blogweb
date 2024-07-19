@@ -31,7 +31,7 @@ export default function Workplace() {
             exposes us to different cultures, and creates memories that last a
             lifetime. However, traveling can also be stressful and overwhelming,
             especially if you do not plan and prepare adequately. In this blog
-            article, well explore tips and tricks for a memorable journey and
+            article, will explore tips and tricks for a memorable journey and
             how to make the most of your travels.
           </p>
 
@@ -78,7 +78,7 @@ export default function Workplace() {
             hendrerit gravida rutrum quisque non tellus orci ac auctor. Mi ipsum
             faucibus vitae aliquet nec ullamcorper sit amet. Aenean euismod
             elementum nisi quis eleifend quam adipiscing vitae. Viverra
-            adipiscing at in tellus.
+            adipiscing at in tellusd
           </p>
         </div>
         <div>

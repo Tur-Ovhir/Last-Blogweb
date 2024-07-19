@@ -12,7 +12,7 @@ export const Navbar = () => {
           </Link>
           <div className="gap-5 flex ">
             <Link href="/">
-              <h1 className="hover:bg-blue-300 rounded-xl">Home</h1>
+              <h1 className="hover:bg-blue-300 rounded-xl">Home TURUUU</h1>
             </Link>
             <Link href="/Blog">
               <h1 className="hover:bg-blue-300 rounded-xl">Blog</h1>

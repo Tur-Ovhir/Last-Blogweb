@@ -30,8 +30,8 @@ export default function Workplace() {
             Traveling is an enriching experience that opens up new horizons,
             exposes us to different cultures, and creates memories that last a
             lifetime. However, traveling can also be stressful and overwhelming,
-            especially if you don't plan and prepare adequately. In this blog
-            article, we'll explore tips and tricks for a memorable journey and
+            especially if you do not plan and prepare adequately. In this blog
+            article, well explore tips and tricks for a memorable journey and
             how to make the most of your travels.
           </p>
 
@@ -83,9 +83,6 @@ export default function Workplace() {
         </div>
         <div>
           <About></About>
-        </div>
-        <div>
-          <MetalBlog></MetalBlog>
         </div>
       </div>
     </div>

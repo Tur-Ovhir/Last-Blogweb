@@ -11,15 +11,22 @@ export const Technology = () => {
 
   return (
     <div className=" lg.w-[1216px] w-full  lg.h-[600px] h-full">
-      <div className="w-full flex relative ">
-        <Image className=" flex " src="/Image.png" alt="" />
-        <Link href="">
-          <Image
-            className="absolute    bottom-1  left-0"
-            src="ContentGrid.jpg"
-            alt=""
-          />
-        </Link>
+      <div className="lg.w-full w-[1216px] flex relative ">
+        <Image
+          className=" flex "
+          src="/Image.png"
+          alt="ContentGrid.jpg"
+          width={1216}
+          height={600}
+        />
+
+        <Image
+          className="absolute    bottom-1  left-0"
+          src="/ContentGrid.jpg"
+          alt="ContentGrid.jpg"
+          width={500}
+          height={500}
+        />
       </div>
       <div className="flex w-full   justify-center">
         <CiSquareChevLeft className="w-[40px] h-[40px] hover:bg-blue-300 rounded-xl" />

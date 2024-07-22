@@ -8,23 +8,31 @@ export const Trending = () => {
       <div className="flex gap-10 overflow-hidden overflow-x-scroll ml-3">
         <Image
           className="w-[289px] h-[320px]"
-          src="Rectangle 38Trending1.jpg "
-          alt="imgtag"
+          src="/Rectangle 38Trending1.jpg "
+          alt="ContentGrid.jpg"
+          width={500}
+          height={500}
         />
         <Image
           className="w-[289px] h-[320px]"
-          src="Rectangle 38Trending2.jpg"
-          alt="img1"
+          src="/Rectangle 38Trending2.jpg"
+          alt="ContentGrid.jpg"
+          width={500}
+          height={500}
         />
         <Image
           className="w-[289px] h-[320px]"
-          src="Rectangle 38Trending3.jpg"
-          alt="img2"
+          src="/Rectangle 38Trending3.jpg"
+          alt="ContentGrid.jpg"
+          width={500}
+          height={500}
         />
         <Image
           className="w-[289px] h-[320px]"
-          src="Rectangle 38Trending4.jpg"
-          alt="img3"
+          src="/Rectangle 38Trending4.jpg"
+          alt="ContentGrid.jpg"
+          width={500}
+          height={500}
         />
       </div>
     </div>

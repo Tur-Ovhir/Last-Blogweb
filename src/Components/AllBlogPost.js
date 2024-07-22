@@ -29,55 +29,100 @@ export const AllBlogPost = () => {
           className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6  "
           href="/Blog/2"
         >
-          <Image src="m-post-card-gridBlog1.jpg" alt="" />
+          <Image
+            src="/m-post-card-gridBlog1.jpg"
+            alt="ContentGrid.jpg"
+            width={500}
+            height={500}
+          />
         </Link>
         <Link
           className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6  "
           href="/Blog/3"
         >
-          <Image src="m-post-card-gridBlog2.jpg" alt="" />
+          <Image
+            src="/m-post-card-gridBlog2.jpg"
+            alt="ContentGrid.jpg"
+            width={500}
+            height={500}
+          />
         </Link>
         <Link
           className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6  "
           href="/Blog/4"
         >
-          <Image src="m-post-card-gridBlog3.jpg" alt="" />
+          <Image
+            src="/m-post-card-gridBlog3.jpg"
+            alt="ContentGrid.jpg"
+            width={500}
+            height={500}
+          />
         </Link>
         <Link
           className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6  "
           href="/Blog/5"
         >
-          <Image src="m-post-card-gridBlog4.jpg" alt="" />
+          <Image
+            src="/m-post-card-gridBlog4.jpg"
+            alt="ContentGrid.jpg"
+            width={500}
+            height={500}
+          />
         </Link>
         <Link
           className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6  "
           href="/Blog/6"
         >
-          <Image src="m-post-card-gridBlog5.jpg" alt="" />
+          <Image
+            src="/m-post-card-gridBlog5.jpg"
+            alt="ContentGrid.jpg"
+            width={500}
+            height={500}
+          />
         </Link>
         <Link
           className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6  "
           href="/Blog/7"
         >
-          <Image src="m-post-card-gridBlog6.jpg" alt="" />
+          <Image
+            src="/m-post-card-gridBlog6.jpg"
+            alt="ContentGrid.jpg"
+            width={500}
+            height={500}
+          />
         </Link>
         <Link
           className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6  "
           href="/Blog/8"
         >
-          <Image src="m-post-card-gridBlog7.jpg" alt="" />
+          <Image
+            src="/m-post-card-gridBlog7.jpg"
+            alt="ContentGrid.jpg"
+            width={500}
+            height={500}
+          />
         </Link>
         <Link
           className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6  "
           href="/Blog/9"
         >
-          <Image src="m-post-card-gridBlog8.jpg" alt="" />
+          <Image
+            src="/m-post-card-gridBlog8.jpg"
+            alt="ContentGrid.jpg"
+            width={500}
+            height={500}
+          />
         </Link>
         <Link
           className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6  "
           href="/Blog/10"
         >
-          <Image src="m-post-card-gridBlog9.jpg" alt="" />
+          <Image
+            src="/m-post-card-gridBlog9.jpg"
+            alt="ContentGrid.jpg"
+            width={500}
+            height={500}
+          />
         </Link>
       </div>
       <button className=" w-[100px] py-2 bg-[#4B6BFB] text-white rounded-md m-auto flex text-center mt-2">

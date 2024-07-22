@@ -74,7 +74,7 @@ export const Carausel = () => {
         {blogs.map((blog) => (
           <BlogCard
             key={blog.title}
-            image={blog.cover_image}
+            imagemage={blog.cover_image}
             title={blog.title}
             date={blog.published_at}
             tags={blog.tag_list}

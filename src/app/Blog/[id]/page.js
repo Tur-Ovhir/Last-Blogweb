@@ -24,7 +24,13 @@ export default function Workplace() {
           </div>
         </div>
         <div className="mt-10 w-[800px] h-[462px] ">
-          <Image className="justify-center" src="/imagehot.jpg" alt="" />
+          <Image
+            className="justify-center"
+            src="/imagehot.jpg"
+            alt="ContentGrid.jpg"
+            width={500}
+            height={500}
+          />
         </div>
         <div className="w-[800px] mt-10">
           <p className="text-[#3b3c4a]">

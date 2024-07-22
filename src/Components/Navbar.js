@@ -4,7 +4,7 @@ import { Menu } from "@/Assets/Menu";
 import Link from "next/link";
 export const Navbar = () => {
   return (
-    <div className="NavbarBody lg.w-[1216px] w-full h-[50px] justify-center items-center ">
+    <div className="NavbarBody lg:w-[1216px] w-full h-[50px] justify-center items-center ">
       <div className="flex">
         <div className="w-full flex  justify-between ">
           <Link href="http://localhost:3000/">

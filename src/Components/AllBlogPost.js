@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export const AllBlogPost = () => {
   return (
-    <div className="lg.w-[1216px] w-full">
+    <div className="lg:w-[1216px] w-full">
       <div>
         <h1 className="text-2xl italic ml-3">All Blog Post</h1>
       </div>

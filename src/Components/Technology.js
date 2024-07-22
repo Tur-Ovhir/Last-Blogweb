@@ -10,8 +10,8 @@ export const Technology = () => {
   ];
 
   return (
-    <div className=" lg.w-[1216px] w-full  lg.h-[600px] h-full">
-      <div className="lg.w-full w-[1216px] flex relative ">
+    <div className=" lg:w-[1216px] w-full  lg:h-[600px] h-full">
+      <div className="lg:w-full w-[1216px] flex relative ">
         <Image
           className=" flex "
           src="/Image.png"
